@@ -20,5 +20,13 @@
   </dependencies>
   <build>
     <sourceDirectory>${basedir}/src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>${basedir}/src</directory>
+        <includes>
+          <include>**/*.png</include>
+        </includes>
+      </resource>
+    </resources>
   </build>
 </project>
